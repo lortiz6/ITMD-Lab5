@@ -54,12 +54,12 @@
   }
 
   .aqua{
-    background-color: aqua;
+    background-color: transparent;
     font-size: 1em;
   }
 
 .pink{
-    background-color: lightpink;
+    background-color: transparent;
     font-size: 1em;
 }
 
@@ -69,4 +69,8 @@
     font-weight: bold;
 }
 
+.aqua:data{
+    background-color: transparent;
+    font-weight: bold;
+}
 
