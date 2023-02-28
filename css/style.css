@@ -26,3 +26,9 @@
     border: 0em;
     margin: 0em;
   }
+  #planets{
+    border-collapse: collapse;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+  }
