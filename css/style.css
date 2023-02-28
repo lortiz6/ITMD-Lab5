@@ -8,7 +8,7 @@
   h1{
     width: 35%;
     padding: 0px;
-    border-bottom: 2px solid magenta;
+    border-bottom: 2px dotted palevioletred;
     margin-left: auto;
     margin-right: auto;
     font-size: 3em;
