@@ -4,7 +4,6 @@
      66% {color: dodgerblue;}
      100% {color: paleturquoise;}
   }
-  
   h1{
     width: 35%;
     padding: 0px;
@@ -19,4 +18,11 @@
     animation-duration: 5s;
     animation-direction: alternate;
     animation-iteration-count: infinite;
+  }
+  img{
+    width: 10em;
+    height: 10em;
+    padding: 0;
+    border: 0em;
+    margin: 0em;
   }
