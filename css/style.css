@@ -1,0 +1,6 @@
+@keyframes animate{
+    0% {color: rgb(225, 4, 241);}
+     33% {color: aqua;}
+     66% {color: dodgerblue;}
+     100% {color: paleturquoise;}
+  }
