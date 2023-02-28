@@ -54,12 +54,12 @@
   }
 
   .aqua{
-    background-color: transparent;
+    background-color: lightpink;
     font-size: 1em;
   }
 
 .pink{
-    background-color: transparent;
+    background-color: lightpink;
     font-size: 1em;
 }
 
@@ -70,11 +70,16 @@
 }
 
 .aqua:data{
-    background-color: transparent;
+    background-color: lightpink;
     font-weight: bold;
 }
 
 .pink:data{
-    background-color: transparent;
+    background-color: lightpink;
+    font-weight: bold;
+}
+
+.side:data{
+    background-color: lightpink;
     font-weight: bold;
 }
