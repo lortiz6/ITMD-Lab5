@@ -44,6 +44,11 @@
   }
 
   #planets th{
-    background-color: grey;
+    background-color: black;
     border: 0px;
+  }
+
+  .planet{
+    font-size: 2em;
+    font-weight: bold;
   }
