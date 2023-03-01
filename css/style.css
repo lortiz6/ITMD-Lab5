@@ -1,22 +1,19 @@
 @keyframes animate {
     30% {
-        color: Magenta;
+      color: Magenta;
     }
-
     33% {
-        color: cyan;
+      color: cyan;
     }
-
     66% {
-        color: blueviolet;
+      color: blueviolet;
     }
-
     100% {
-        color: mediumblue;
+      color: mediumblue;
     }
-}
-
-h1 {
+  }
+  
+  h1 {
     width: 35%;
     padding: 0px;
     border-bottom: 2px dotted palevioletred;
@@ -30,123 +27,125 @@ h1 {
     animation-duration: 5s;
     animation-direction: alternate;
     animation-iteration-count: infinite;
-}
-
-img {
+  }
+  
+  img {
     width: 10em;
     height: 10em;
     padding: 0;
     border: 0em;
     margin: 0em;
     transition: transform 0.2s ease-in-out;
-}
-
-img:hover {
+  }
+  
+  img:hover {
     transform: scale(1.2);
-}
-
-#planets {
+  }
+  
+  #planets {
     border-collapse: collapse;
     border: 1px solid lightpink;
     margin-left: auto;
     margin-right: auto;
-}
-
-td {
+  }
+  
+  td {
     padding: 8px;
     border: 1px solid lightpink;
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-th {
+  }
+  
+  th {
     padding: 8px;
     border: 1px solid lightpink;
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-#planets th {
+  }
+  
+  #planets th {
     background-color: transparent;
     border: 0px;
-}
-
-.planet {
+  }
+  
+  .planet {
     font-size: 2em;
     font-weight: bold;
     color: white;
-}
-
-.aqua {
+  }
+  
+  .aqua {
     color: white;
     background-color: transparent;
     font-size: 1em;
-}
-
-.pink {
+  }
+  
+  .pink {
     color: white;
     background-color: transparent;
     font-size: 1em;
-}
-
-.side {
+  }
+  
+  .side {
     text-align: center;
     font-size: 1.30em;
     font-weight: bold;
-}
-
-.aqua:hover {
+  }
+  
+  .aqua:hover {
     background-color: black;
     font-weight: bold;
-}
-
-.pink:hover {
+  }
+  
+  .pink:hover {
     background-color: black;
     font-weight: bold;
-}
-
-.side:hover {
+  }
+  
+  .side:hover {
     background-color: transparent;
     font-weight: bold;
-}
-
-.image {
+  }
+  
+  .image {
     background-color: transparent;
-}
-
-a {
+  }
+  
+  a {
     box-shadow: inset 0 0 0 0 pink;
     color: magenta;
     margin: 0 -.25rem;
     padding: 0 .25rem;
     transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
     text-decoration: dotted;
-}
-
-h1:hover {
+  }
+  
+  h1:hover {
     color: white;
     text-decoration: dotted;
     box-shadow: 5px 5px 10px 5px lightpink inset;
-}
-
-h1:link {
+  }
+  
+  h1:link {
     text-decoration: none;
-}
-
-h1:visited {
+  }
+  
+  h1:visited {
     text-decoration: none;
-}
-
-h1:active {
+  }
+  
+  h1:active {
     text-decoration: none;
-}
-
-body, html {
+  }
+  
+  body,
+  html {
     min-height: 100%;
-}
-
-body {
+  }
+  
+  body {
     background-image: url(../media/nebula.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-}
+  }
+  
