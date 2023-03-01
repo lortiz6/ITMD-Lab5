@@ -38,6 +38,11 @@ img {
     padding: 0;
     border: 0em;
     margin: 0em;
+    transition: transform 0.2s ease-in-out;
+}
+
+.img:hover{
+    transform: scale(1.2);
 }
 
 #planets {
