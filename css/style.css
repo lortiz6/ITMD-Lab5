@@ -36,11 +36,30 @@
     margin-right: auto;
   }
 
-  td, th{
+  td{
     padding: 8px;
       border: 1px solid lightpink;
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+  }
+
+  th{
+  padding: 8px;
+  border: 1px solid lightpink;
+text-align: center;
+font-family: Georgia, 'Times New Roman', Times, serif;
+transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+  }
+
+  .td:hover{
+    background-color: red;
+    color: blue;
+  }
+
+  .th:hover{
+    background-color: red;
+    color: blue;
   }
 
   #planets th{
