@@ -141,8 +141,7 @@ a:active {
     text-decoration: none;
 }
 
-body,
-html {
+body, html {
     min-height: 100%;
 }
 
