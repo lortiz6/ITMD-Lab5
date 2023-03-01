@@ -1,11 +1,22 @@
-@keyframes animate{
-    30% {color: Magenta;}
-     33% {color: aqua;}
-     66% {color: dodgerblue;}
-     100% {color: paleturquoise;}
-  }
+@keyframes animate {
+    30% {
+        color: Magenta;
+    }
 
-  h1{
+    33% {
+        color: aqua;
+    }
+
+    66% {
+        color: dodgerblue;
+    }
+
+    100% {
+        color: paleturquoise;
+    }
+}
+
+h1 {
     width: 35%;
     padding: 0px;
     border-bottom: 2px dotted palevioletred;
@@ -19,94 +30,94 @@
     animation-duration: 5s;
     animation-direction: alternate;
     animation-iteration-count: infinite;
-  }
+}
 
-  img{
+img {
     width: 10em;
     height: 10em;
     padding: 0;
     border: 0em;
     margin: 0em;
-  }
+}
 
-  #planets{
+#planets {
     border-collapse: collapse;
     border: 1px solid lightpink;
     margin-left: auto;
     margin-right: auto;
-  }
+}
 
-  td{
+td {
     padding: 8px;
-      border: 1px solid lightpink;
+    border: 1px solid lightpink;
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+th {
+    padding: 8px;
+    border: 1px solid lightpink;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.td:hover {
+    background-color: red;
+    color: blue;
     transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
-  }
+}
 
-  th{
-  padding: 8px;
-  border: 1px solid lightpink;
-text-align: center;
-font-family: Georgia, 'Times New Roman', Times, serif;
-transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
-  }
-
-  .td:hover{
+.th:hover {
     background-color: red;
     color: blue;
-  }
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
 
-  .th:hover{
-    background-color: red;
-    color: blue;
-  }
-
-  #planets th{
+#planets th {
     background-color: transparent;
     border: 0px;
-  }
+}
 
-  .planet{
+.planet {
     font-size: 2em;
     font-weight: bold;
     color: white;
-  }
+}
 
-  .aqua{
-    color: white;
-    background-color: transparent;
-    font-size: 1em;
-  }
-
-.pink{
+.aqua {
     color: white;
     background-color: transparent;
     font-size: 1em;
 }
 
-.side{
+.pink {
+    color: white;
+    background-color: transparent;
+    font-size: 1em;
+}
+
+.side {
     text-align: center;
     font-size: 1.30em;
     font-weight: bold;
 }
 
-.aqua:hover{
+.aqua:hover {
     background-color: black;
     font-weight: bold;
 }
 
-.pink:hover{
+.pink:hover {
     background-color: black;
     font-weight: bold;
 }
 
-.side:hover{
+.side:hover {
     background-color: transparent;
     font-weight: bold;
 }
 
-.image{
+.image {
     background-color: transparent;
 }
 
@@ -117,32 +128,34 @@ a {
     padding: 0 .25rem;
     transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
     text-decoration: dotted;
-    } 
+}
 
-a:hover{
+a:hover {
     color: white;
     text-decoration: dotted;
-    box-shadow: 5px 5px 10px 5px lightpink inset;;
+    box-shadow: 5px 5px 10px 5px lightpink inset;
+    ;
 }
 
-a:link{
+a:link {
     text-decoration: none;
 }
 
-a:visited{
+a:visited {
     text-decoration: none;
-  }
+}
 
-a:active{
+a:active {
     text-decoration: none;
-  }
+}
 
-  body, html {
+body,
+html {
     min-height: 100%;
-  }
-  
-  body {
+}
+
+body {
     background-image: url(../media/nebula.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-  }
+}
