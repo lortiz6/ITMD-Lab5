@@ -4,15 +4,15 @@
     }
 
     33% {
-        color: aqua;
+        color: cyan;
     }
 
     66% {
-        color: dodgerblue;
+        color: blueviolet;
     }
 
     100% {
-        color: paleturquoise;
+        color: mediumblue;
     }
 }
 
