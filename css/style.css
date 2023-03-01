@@ -61,18 +61,6 @@ th {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.td:hover {
-    background-color: red;
-    color: blue;
-    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
-}
-
-.th:hover {
-    background-color: red;
-    color: blue;
-    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
-}
-
 #planets th {
     background-color: transparent;
     border: 0px;
